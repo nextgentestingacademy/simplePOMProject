@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeSuite;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
-	protected WebDriver driver;
+	public WebDriver driver;
 	
 	@BeforeSuite(alwaysRun = true)
 	public void configureDriver() {
