@@ -8,7 +8,7 @@ import base.BasePage;
 public class LoginPage extends BasePage{
 
 
-	private final By edtUsername = By.name("username");
+	private final By edtUsername = By.name("username1");
 	private final By edtPassword = By.name("password");
 	private final By btnLogin = By.tagName("button");
 	

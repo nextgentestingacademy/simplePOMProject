@@ -19,8 +19,8 @@
           <include name="tearDown"/>
           <include name="beforeMethod"/>
           <include name="configureDriver"/>
-          <include name="launchApp"/>
           <include name="loginInvalidCredentials"/>
+          <include name="launchApp"/>
         </methods>
       </class> <!-- tests.LoginTest -->
     </classes>
