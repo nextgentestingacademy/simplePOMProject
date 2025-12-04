@@ -2,27 +2,27 @@
 <testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-14T14:33:19 IST" name="Suite" finished-at="2025-11-14T14:33:58 IST" duration-ms="39886">
+  <suite started-at="2025-12-04T14:00:23 IST" name="Suite" finished-at="2025-12-04T14:01:07 IST" duration-ms="44246">
     <groups>
       <group name="regression">
         <method signature="LoginTest.loginInvalidCredentials()[pri:0, instance:tests.LoginTest@7a35b0f5]" name="loginInvalidCredentials" class="tests.LoginTest"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2025-11-14T14:33:19 IST" name="Test" finished-at="2025-11-14T14:33:58 IST" duration-ms="39886">
+    <test started-at="2025-12-04T14:00:23 IST" name="Test" finished-at="2025-12-04T14:01:07 IST" duration-ms="44246">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="configureDriver()[pri:0, instance:tests.LoginTest@7a35b0f5]" started-at="2025-11-14T14:33:18 IST" name="configureDriver" finished-at="2025-11-14T14:33:19 IST" duration-ms="587" status="PASS">
+        <test-method is-config="true" signature="configureDriver()[pri:0, instance:tests.LoginTest@7a35b0f5]" started-at="2025-12-04T14:00:19 IST" name="configureDriver" finished-at="2025-12-04T14:00:23 IST" duration-ms="4075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureDriver -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.LoginTest@7a35b0f5]" started-at="2025-11-14T14:33:19 IST" name="launchApp" finished-at="2025-11-14T14:33:26 IST" duration-ms="6691" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.LoginTest@7a35b0f5]" started-at="2025-12-04T14:00:23 IST" name="launchApp" finished-at="2025-12-04T14:00:33 IST" duration-ms="9875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginTest@7a35b0f5]" started-at="2025-11-14T14:33:26 IST" name="beforeMethod" finished-at="2025-11-14T14:33:26 IST" duration-ms="39" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginTest@7a35b0f5]" started-at="2025-12-04T14:00:33 IST" name="beforeMethod" finished-at="2025-12-04T14:00:34 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="loginInvalidCredentials()[pri:0, instance:tests.LoginTest@7a35b0f5]" started-at="2025-11-14T14:33:26 IST" name="loginInvalidCredentials" finished-at="2025-11-14T14:33:58 IST" duration-ms="32143" status="FAIL">
+        <test-method signature="loginInvalidCredentials()[pri:0, instance:tests.LoginTest@7a35b0f5]" started-at="2025-12-04T14:00:34 IST" name="loginInvalidCredentials" finished-at="2025-12-04T14:01:06 IST" duration-ms="32664" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -68,7 +68,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7a35b0f5]" started-at="2025-11-14T14:33:58 IST" name="tearDown" finished-at="2025-11-14T14:33:58 IST" duration-ms="450" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7a35b0f5]" started-at="2025-12-04T14:01:06 IST" name="tearDown" finished-at="2025-12-04T14:01:07 IST" duration-ms="497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
